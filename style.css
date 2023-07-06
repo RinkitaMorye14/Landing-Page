@@ -234,9 +234,11 @@ footer {
     color: var(--color);
 }
 footer .footer_text{
+    font-size: 0.7rem;
     padding-bottom: 0.1rem;
 }
 footer .footer_links a{
+    font-size: 0.7rem;
     text-decoration: none;
     color: var(--color);
 }
