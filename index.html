@@ -39,13 +39,13 @@
           </div>
           <!-- /////////////////////navabr///////////////////////// -->
           <div class="toggle">
-            <i class="fa-solid fa-bars" style="color: #3d3a3a"></i>
+            <i class="fa-solid fa-bars" style="color: #faf5f5"></i>
           </div>
         </div>
         <div class="dropDown">
           <li><a href="#">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#packages">Packages</a></li>
+          <li><a href="#R_services">Services</a></li>
+          <li><a href="#R_packages">Packages</a></li>
           <li><a href="#contact">Contact Us</a></li>
           <li><button class="btn">Products</button></li>
         </div>
@@ -58,7 +58,7 @@
             <div class="row ">
               <div class="col">
                 <p>Take Control of Your Home's Security like Never Before</p>
-                <button>Buy Product</button>
+                <a href="#contact"><button>Ask a Demo</button></a>
               </div>
               <div class="col Product_img">
                 <img
@@ -67,6 +67,23 @@
               </div>
             </div>
           </div>
+
+          <div class="description">
+            <h2>Welcome to the Future of Home Security</h2>
+            <h1>Discover the Power of Smart Home Protection</h1>
+            <div class="row">
+              <div class="col">
+                <p>Take Control of Your Home's Security like Never Before</p>
+                <a href="#contact"><button>Ask a Demo</button></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col Product_img">
+                <img src="https://www.pngall.com/wp-content/uploads/2/Home-Security-System-PNG-Photo.png" />
+              </div>
+            </div>
+          </div>
+          
         </div>
       </main>
     </header>
@@ -156,7 +173,7 @@
       </div>
     </div>
     <!-- ///////////////////ListFeature /////////////////// -->
-    <div class="ListFeature">
+    <div class="ListFeature" id="R_services">
       <h2 id="title">Why you have to go with this ?</h2>
       <div class="row">
         <div class="col imgCol">
@@ -261,53 +278,34 @@
 
     <div class="Adv">
       <div class="Why">
-        <h3 id="title"><span class="initial">B</span>enefits</h3>
+        <h3 id="title"><span class="initial">Benefits</span></h3>
         <div class="content">
           <ul>
-            <li>
-              Protect Your Home and Loved Ones with Advanced Security
-              Technology
-            </li>
+            <li>Protect Your Home and Loved Ones with Advanced Security Technology</li>
             <li>Deter Break-Ins and Keep Intruders at Bay</li>
             <li>Monitor Your Home Remotely and Receive Instant Alerts</li>
             <li>Enjoy Peace of Mind Knowing Your Home is Safeguarded</li>
-            <li>
-              Convenient Control at Your Fingertips with Smartphone
-              Integration
-            </li>
+            <li>Convenient Control at Your Fingertips with Smartphone Integration</li>
             <li>Create a Safe and Secure Environment for Your Family</li>
           </ul>
         </div>
       </div>
       <div class="How">
-                  <h3 id="title"><span class="initial">How</span> can I do this ?</h3>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        Step 1: Install the smart home security system components in
-                        strategic locations.
-                      </li>
-                      <li>
-                        Step 2: Connect the system to your home's network and configure
-                        the settings.
-                      </li>
-                      <li>
-                        Step 3: Download our user-friendly app and sync it with your
-                        security system.
-                      </li>
-                      <li>
-                        Step 4: Enjoy real-time monitoring, control, and notifications
-                        right from your smartphone.
-                      </li>
-                    </ul>
-                    <div class="link">
-                      <a href="https://www.youtube.com/" target="_blank"
-                        >Watch Video Tutorial</a
-                      >
-                    </div>
-                  </div>
+        <h3 id="title"><span class="initial">How</span> can I do this?</h3>
+        <div class="content">
+          <ol>
+            <li>Install the smart home security system components in strategic locations.</li>
+            <li>Connect the system to your home's network and configure the settings.</li>
+            <li>Download our user-friendly app and sync it with your security system.</li>
+            <li>Enjoy real-time monitoring, control, and notifications right from your smartphone.</li>
+          </ol>
+          <div class="link">
+            <a href="https://www.youtube.com/" target="_blank">Watch Video Tutorial</a>
+          </div>
+        </div>
       </div>
     </div>
+    
 
     <div class="Pricing_packages" id="packages">
       <h3 id="title">Pricing & Packages</h3>
@@ -335,7 +333,7 @@
       </div>
     </div>
 
-    <div class="packages" id="packages">
+    <div class="packages" id="R_packages">
       <h3 id="title">Pricing & Packages</h3>
       <div class="package">
         <h5>Basic Package:</h5>
@@ -355,23 +353,25 @@
       <h3 id="title">
         Request a Demo to See Our Smart Home Security System in Action
       </h3>
-      <div class="DemoReq">
-        <form method="post" action="/">
-          <input
-            type="mail"
-            name="email"
-            id="email"
-            placeholder="Your Email-ID"
-          />
-          <button type="submit">Submit</button>
+      <!-- <div class="DemoReq"> -->
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email-ID:">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-      </div>
+      <!-- </div> -->
     </div>
     <footer>
-      <div>.........</div>
-      <div>Made by thinking about saftey</div>
-      <div>.........</div>
+      <div class="footer_text">
+        Made with <i class="fas fa-heart" style="color: red;"></i> by thinking about safety
+      </div>
+      <div class="footer_links">
+        <a href="#description">Home</a> | <a href="#R_packages">Pricing</a> | <a href="#R_services">Services</a> | <a href="#contact">Contact</a>
+      </div>
     </footer>
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
