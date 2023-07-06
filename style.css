@@ -286,7 +286,7 @@ footer .footer_links a{
       }
     .navbar nav,
     .navbar .btn,
-    .hero,.Pricing_packages,.Why_how{
+    .hero,.Pricing_packages,.Why_how,.features{
         display: none;
     }
     .Adv,.dropDown,.description,.packages{
