@@ -283,8 +283,8 @@ footer .footer_links a{
 
 @media(max-width:598px){
     :root {
-        --background-color: #150a24;
-        --color:rgb(245, 243, 243);
+        --background-color: #fdfbff;
+        --color:rgb(24, 22, 22);
       }
     .navbar nav,
     .navbar .btn,
@@ -398,9 +398,9 @@ footer .footer_links a{
             width: fit-content;
             cursor: pointer;
             background-color: #141033;
+            color: #fff;
             box-shadow: 
                 -10px -15px 0px rgba(180, 31, 81, 0.548),
-                5px -10px 5px rgba(19, 64, 155, 0.548),
                 -5px 10px 5px rgba(0, 0, 0, 0.548);
         }
       .package h5 {
@@ -409,7 +409,8 @@ footer .footer_links a{
       .package p {
         text-align: center;
       }
-      .Adv #title{
-        color: bisque;
+      .Adv #title .initial{
+        color: var(--color);
+        font-size: 2rem;
       }
 }
